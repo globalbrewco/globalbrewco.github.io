@@ -1,0 +1,176 @@
+header, nav, main, footer { display: block; }
+.designer-name{
+  float: right;
+  font-style: italic;
+  font-size: 80%;
+}
+
+header h1 {
+  vertical-align: middle;
+}
+
+.banner{
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background: black;
+  vertical-align: middle;
+}
+
+.logo {text-align: left;
+}
+
+#content-container{
+  border-style: solid;
+  border-width: thick;
+  border-color: black
+}
+
+#banner_title{text-align: center;}
+
+header { 
+    background-repeat:no-repeat;
+    background-position: left;
+    
+}
+
+h2 { text-align: center;}
+
+nav { width: auto;
+      font-weight:  bold;
+      padding: 1em;
+      text-align: center;  
+      border-style: solid;
+      border-width: thick;
+      border-color: black
+}
+
+#nav-container{
+  background: #6b6b6b;
+  border-bottom: black;
+}
+
+nav a { text-decoration: none;
+        padding: 5px;
+        border-bottom: black
+}
+
+a:hover { background-color: #89c15b;}
+
+ul { list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li { display: inline;
+     padding: 0;
+}
+
+li a{ display: inline-block;
+  background-color: #6b6b6b;
+  width: 15%;
+  color: black;
+  color: white;
+}
+
+li { font-size: 1.2em;}
+
+body{
+  font-family: Verdana, Arial, Sans-Serif;
+  background: #89c15b;
+}
+
+a:link{
+  text-decoration: none;
+  color: white;
+}
+
+#wrapper { width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background: #6b6b6b;
+  
+}
+
+#header-nav {
+  border: pink;
+  background: black;
+  width: 94%
+  height: 2emm;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer-format {
+  color: black;
+}
+
+.hero { 
+  text-align: center;
+        
+}
+
+
+
+footer { font-style: italic;
+  text-align: center;
+  padding: 2em;
+  color: white;
+  background: black;
+  border: green;
+}
+
+p { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .hero { display: none;}
+  nav li { display: list-item;
+  }
+
+  nav {      width: auto;
+        font-weight:  bold;
+        padding: 1em;
+        text-align: center;
+  }
+  
+  nav a { text-decoration: none;
+          
+          font-size: 95%;
+          width: 100px;
+          height: 50px;
+  }
+  
+  header { background-image: none;}
+}
+
+@media only all and (max-width: 768px) {
+  .hero { display: none;}
+  nav li { display: list-item;
+
+  }
+
+  nav {      width: auto;
+        font-weight:  bold;
+        padding: 1em;
+        text-align: center;
+  }
+  
+  nav a { text-decoration: none;
+          padding: 1em;
+          font-size: 80%;
+          width: 100px;
+          height: 50px;
+  }
+
+  header { background-image: none;
+            padding: 1em;
+  }
+  header h1 { border: none;}
+
+}
