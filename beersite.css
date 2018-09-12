@@ -97,7 +97,8 @@ a:link{
 #header-nav {
   border: pink;
   background: black;
-  width: 94%;
+
+  height: 2emm;
   margin-left: auto;
   margin-right: auto;
 }
