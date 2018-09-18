@@ -18,9 +18,11 @@ header h1 {
   vertical-align: middle;
 }
 
-.logo {text-align: left;
+.logo {text-align: center;
+  font-size: 2.4em;
+  font-weight:bold;
 }
-
+#little-screen-logo{display: none;}
 #content-container{
   border-style: solid;
   border-width: thick;
@@ -113,9 +115,10 @@ a:link{
   text-align: center;
         
 }
- img{
-   width: 10%;
+.logo img{
+   width: 15%;
    height: auto;
+   
  }
 
 
@@ -146,7 +149,6 @@ p { display: block;
     background-color: #6b6b6b;
     overflow: hidden;
     text-align: center;
-    
     border-style: solid;
     border-width: thick;
     border-color: black;
@@ -202,6 +204,9 @@ p { display: block;
     float: right;
     display: block;
   }
+  .logo img {width: 35%;
+  }
+  
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -217,4 +222,6 @@ p { display: block;
     display: block;
     text-align: left;
   }
+  #big-screen-logo{display: none;}
+  #little-screen-logo{display: block;}
 }
