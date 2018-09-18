@@ -4,14 +4,17 @@
   <title>Globe Brewing Company :: Home</title>
   <meta charset=utf-8>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="beersite.css" type="text/css">
+  <link rel="stylesheet" href="beersite2.css" type="text/css">
   <meta name="description" content="Globe Brewing Company home page">
   <!--[if lt IE 9]>
   <script src="https://html5shim.googlecode.com/svn/trunk/html5.js">
   </script>
   <![endif]-->
+  <!-- Load an icon library to show  menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<script src="navScript.js"></script>
 <div id="wrapper">
   <div id="header-nav">
     <header>
@@ -20,21 +23,18 @@
         <div class="logo"> <img  src="logo.png"  alt="logo"></div>
       </div>
     </header>
-    <div id="nav-container">
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Beers.html">Beers</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="wholesale.html">Wholesale</a></li>
-        <li><a href="promotions.html">Promotions</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">  <i class="fa fa-bars"></i></a></li>
-  
-      </ul>
-    </nav>
+    <div class="topnav" id="myTopnav">
+      
+        <a href="index.html">Home</a>
+        <a href="Beers.html">Beers</a>
+        <a href="about.html">About</a>
+        <a href="wholesale.html">Wholesale</a>
+        <a href="promotions.html">Promotions</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">  <i class="fa fa-bars"></i></a>
+    
   </div>
-  </div>
+</div>
   <div id ="content-container">
   <h2>Home</h2>
   <div class="hero"> <img  src="home-page-hero.jpg"  alt="brewery"></div>
